@@ -47,6 +47,10 @@ public class VehiculoService {
     }
 
     public VehiculoResponse update(Long id, VehiculoRequest request) {
+                if (request == null) {
+            throw new IllegalArgumentException("El request no puede ser nulo");
+        }
+
         Vehiculo vehiculo = buscarOFallar(id);
 
         vehiculoRepository.findByPatente(request.getPatente())
