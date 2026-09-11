@@ -21,5 +21,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: Dar permisos de ejecución a mvnw
+        run: chmod +x mvnw
+
       - name: Compilar el proyecto con Maven
         run: ./mvnw clean install -DskipTests
