@@ -1,0 +1,19 @@
+name: Test SNYK_TOKEN
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verificar token
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        run: |
+          echo "Largo del token: ${#SNYK_TOKEN}"
+          code=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: token $SNYK_TOKEN" \
+            https://api.snyk.io/v1/user/me)
+          echo "HTTP $code"
+          test "$code" = "200"
