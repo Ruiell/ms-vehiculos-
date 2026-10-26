@@ -105,7 +105,7 @@ jobs:
             org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.organization=ruiell \
-            -Dsonar.projectKey=Ruiell_ms-vehiculos
+            -Dsonar.projectKey=Ruie11_ms-vehiculos -Dsonar.qualitygate.wait=true
 
   # 4. Build del JAR
   build:
