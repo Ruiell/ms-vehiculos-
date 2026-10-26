@@ -23,7 +23,7 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          args: --severity-threshold=high --json-file-output=snyk-report.json
+          args: -d --severity-threshold=high --json-file-output=snyk-report.json
 
       - name: Subir snyk-report
         if: always()
