@@ -66,7 +66,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jacoco-report
-          path: target/site/jacoco/
+          path: target/
           if-no-files-found: warn
 
   # 3. Análisis estático (SAST) con SonarCloud
