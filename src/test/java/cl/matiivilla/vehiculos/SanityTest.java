@@ -8,7 +8,7 @@ class SanityTest {
 
     @Test
     void sumaBasica() {
-        assertEquals(2 + 3);
+        assertEquals(4, 2 + 3);
     }
 }
 
@@ -33,4 +33,3 @@ class SanityTest {
 
 
 
-test: rompe prueba unitaria (Experimento B)
