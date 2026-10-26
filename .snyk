@@ -1,0 +1,94 @@
+version: v1.25.0
+ignore:
+  SNYK-JAVA-ORGGLASSFISHJAXB-20883142:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-CHQOSLOGBACK-17675439:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-COMFASTERXMLJACKSONCORE-17972608:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-COMFASTERXMLJACKSONCORE-19778370:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-COMFASTERXMLJACKSONCORE-20059683:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-COMFASTERXMLJACKSONCORE-20059179:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-COMFASTERXMLJACKSONCORE-21193287:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-17732890:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-17733746:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-20302889:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-20304748:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-21246252:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-21249759:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-19267072:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-19267073:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-19267075:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-19267077:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-19267078:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-19267079:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-20302843:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-21707475:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-20552494:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-19267098:
+    - '*':
+        reason: No hay parche disponible en Spring Boot 3.5. Riesgo aceptado.
+        expires: 2026-12-31T23:59:59.000Z
