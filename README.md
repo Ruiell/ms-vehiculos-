@@ -1,6 +1,6 @@
 # ms-vehiculos
 
-microservicio de gestión de vehiculos sirviendo como fundamento para el pipeline de despliegue concebido en la Evaluación Parcial 1 de Ingeniería DevOps.
+microservicio de gestión de vehiculos sirviendo como fundamento para el pipeline de despliegue concebido de Ingeniería DevOps.
 
 ## estrategia de ramificacion: GitFlow
 
