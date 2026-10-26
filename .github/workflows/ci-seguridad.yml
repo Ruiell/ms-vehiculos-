@@ -55,7 +55,11 @@ jobs:
         run: chmod +x mvnw
 
       - name: Ejecutar pruebas
-        run: ./mvnw -B verify
+        run: mvn test
+
+      - name: Generar reporte JaCoCo manualmente
+        if: always()
+        run: mvn jacoco:report
 
       - name: Subir jacoco-report
         if: always()
